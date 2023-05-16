@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* definition de la page de travail  */
+#page{
+    display: flex;
+    width: 60vw;
+    border: 1.5px solid black;
+    margin: auto;
+}
+/* config gauche  */
+#gauche{
+    width: 45%;
+    height: auto;
+    background-color: rgb(105, 5, 255);
+    padding: 15px;
+
+}
+/* ajustement photo  */
+.photo{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+/* bordur photo  */
+.photo img{
+    width: 200px;
+border: 3px solid #05ff01;
+    border-radius: 50%;
+}
+/* les sous-titres  */
+#page #gauche .sous-titre h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+/* trait de soulignement  */
+.tr{
+    border: 2.6px solid #05ff01;
+    width: 20%;
+    margin-bottom: 10px;
+    margin-top:5px;
+}
+/* les refferences du comtact  */
+#gauche .ref p{
+    color:#ffffff;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+/* config mail  */
+#gauche .ref p a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+/* formations  */
+.formation{
+    color:#ffffff;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+/* liste des formations  */
+.formation ul li{
+    margin-bottom: 10px;
+}
+/* les langues barre de progression */
+#gauche .bg{
+    height: 1.5vh;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px
+}
+ /* partie verte de la barre de progression Anglais */
+#gauche .bg .niveauA{
+    height: 1.5vh;
+    width: 60%;
+    background-color: #05ff01;
+    border-radius: 10px;
+}
+.langue p{
+    color: #ffffff;
+}
+/* partie verte de la barre de progression Français */
+#gauche .bg .niveauF{
+    height: 1.5vh;
+    width: 90%;
+    background-color: #05ff01;
+    border-radius: 10px;
+}
+/* partie verte de la barre de progression Bamanakan */
+#gauche .bg .niveauB{
+    height: 1.5vh;
+    width: 100%;
+    background-color: #05ff01;
+    border-radius: 10px;
+}
+/* partie droite  */
+#page #droite{
+    padding: 30px 10px 0 10px;
+    width: 55%;
+    box-sizing: border-box;
+}
+/* le nom  */
+#page #droite h1{
+    text-align: center;
+    margin: 30px 0 0px 0;
+    padding: 15px;
+}
+/* le metier  */
+#droite h2{
+    color: blue;
+    /* text-align: center; */
+    margin: 0px 0 20px 0;
+}
+/* actualité  */
+#droite p{
+    text-align: justify;
+    margin: 25px 0 30px 0;
+}
+#droite .sous-titre{
+    margin-bottom: 30px;
+    text-align: center;
+}
+/* developpeur */
+#droite h1+h2{
+    text-align: center;
+}
+#droite .sous-titre .tr{
+    margin-top: -15px;
+    margin-left: 11%;
+}
+#experience ul{
+    padding-left: 10.5px;
+    border-left: #000 solid 2px;
+}
+#experience ul li{
+    margin-bottom: 15px;
+}
