@@ -6,9 +6,12 @@
 /* definition de la page de travail  */
 #page{
     display: flex;
-    width: 60vw;
+    width: 70vw;
     border: 1.5px solid black;
     margin: auto;
+}
+#gauche p{
+    font-size: 1.5vw;
 }
 /* config gauche  */
 #gauche{
@@ -22,19 +25,20 @@
 .photo{
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
+    display: flex;
+    padding-bottom: 5px;
 }
 /* bordur photo  */
 .photo img{
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
     border: 3px solid #05ff01;
     border-radius: 50%;
 }
 /* les sous-titres  */
 #page #gauche .sous-titre h2{
     color: rgb(255, 255, 255);
-    font-size: 1.4rem;
+    font-size: 2.2vw;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -48,20 +52,20 @@
 /* les refferences du comtact  */
 #gauche .ref p{
     color:#ffffff;
-    font-size: 1rem;
+    font-size: 1.5vw;
     margin-bottom: 5px;
 }
 /* config mail  */
 #gauche .ref p a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.5vw;
 }
 /* formations  */
 .formation{
     color:#ffffff;
     padding-left: 10px;
-    font-size: 1rem;
+    font-size: 1.5vw;
 }
 /* liste des formations  */
 .formation ul li{
@@ -109,17 +113,20 @@
     text-align: center;
     margin: 30px 0 0px 0;
     padding: 15px;
+    font-size: 2.7vw;
 }
 /* le metier  */
 #droite h2{
     color: blue;
     /* text-align: center; */
     margin: 0px 0 20px 0;
+    font-size: 2.5vw;
 }
 /* actualité  */
 #droite p{
     text-align: justify;
     margin: 25px 0 30px 0;
+    font-size: 1.5vw;
 }
 #droite .sous-titre{
     margin-bottom: 30px;
@@ -135,13 +142,16 @@
 }
 #experience ul{
     padding-left: 10.5px;
-    border-left: #000 solid 2px;
+    /* border-left: #000 solid 2px; */
 }
 #experience ul li{
     margin-bottom: 15px;
+    font-size: 1.5vw;
 }
+
 #droite .informatique{
     display: flex;
+    font-size: 1.5vw;
 }
 #droite .informatique .level p{
     justify-content: space-between;
@@ -151,6 +161,7 @@
     width: 100%;
     justify-content: space-between;
 }
+/* les points verts */
 .dot {
     display: inline-block;
     height: 1vw;
